@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/cardview_dark_background</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#2196f3</color>
+    <color name="itemInactivo">#757575</color>
+    <color name="textoBlanco">#FFFFFF</color>
+    <color name="solid_one">#ff6a00</color>
+    <color name="solid_two">#1c92d2</color>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Traely</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="facebook_app_id">186486781915966</string>
+    <string name="fb_login_protocol_scheme">fb186486781915966</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

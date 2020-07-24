@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:clickable="true">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/cantidad_comida_en_carrito"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/view2"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent=".75" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/itemInactivo"
+                app:layout_constraintStart_toEndOf="@id/guideline_5" />
+
+
+            <TextView
+                android:id="@+id/nombre_comida_en_carrito"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imagen_comida_en_carrito"
+                app:layout_constraintEnd_toStartOf="@+id/guideline_5"
+                app:layout_constraintStart_toEndOf="@+id/imagen_comida_en_carrito"
+                app:layout_constraintTop_toTopOf="@+id/imagen_comida_en_carrito" />
+
+            <ImageView
+                android:id="@+id/imagen_comida_en_carrito"
+                android:layout_width="75dp"
+                android:layout_height="74dp"
+                android:layout_marginBottom="14dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="14dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@color/colorAccent" />
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

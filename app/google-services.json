@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "100308958917",
+    "firebase_url": "https://tomatlan-traely.firebaseio.com",
+    "project_id": "tomatlan-traely",
+    "storage_bucket": "tomatlan-traely.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100308958917:android:d46f333169d177be",
+        "android_client_info": {
+          "package_name": "studios.gomez.com.tomatlan.traely"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "100308958917-g4nno1t2if58730ef2sm1smkl7tvov0q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf0DWgi56jrG_SxE1K3VjqwO1vV_Tyz3M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_bottom_negocios"
+        android:icon="@mipmap/ic_negocio_white"
+        android:title="Negocios" />
+
+    <item
+        android:id="@+id/home_bottom_home"
+        android:icon="@mipmap/ic_home_white"
+        android:title="Inicio" />
+
+
+    <item
+        android:id="@+id/home_bottom_carrito"
+        android:icon="@mipmap/ic_carrito_white"
+        android:title="Mis Pedidos" />
+
+</menu>
